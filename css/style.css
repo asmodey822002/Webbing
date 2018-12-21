@@ -1,0 +1,276 @@
+body, html{	padding: 0;	margin: 0;}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Tangerine', cursive;
+}
+body{
+	background: #f0efed;
+}
+header{
+	text-align: center;
+}
+header span{
+	color: red;
+}
+nav{
+	font-family: sans-serif;
+	background: #cf3a4e;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+nav li{
+	background: #cf3a4e;
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	list-style-type: none;
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+nav li:hover{
+	background: white;
+}
+nav li:hover a{
+	color: #000;
+}
+.odin{
+	margin: auto;
+	width: 80%;
+	height: 30%;
+	position: relative;
+}
+
+.odin img{
+	border: 10px solid white;
+	width: 100%;
+	height: auto;
+	margin-top: -40px;
+}
+.inf{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 80px;
+	padding: 10px;
+	width: 300px;
+	height: 150px;
+	background: rgba(246, 245, 245, 0.6);
+	margin-left: 20px;
+	text-align: right;
+}
+.inf h2, p{
+	text-align: left;
+}
+.inf button{
+	background: #cf3a4e;
+	border: 0px;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+}
+.inf a{
+	text-decoration: none;
+	color: white;
+}
+.spol{
+	text-align: center;
+}
+.spol button{
+	width: 20px;
+	height: 20px;
+	border: 0px;
+	border-radius: 50%;
+	margin: 20px;
+	background: #9c918f;
+}
+.spol button:nth-child(3){
+	background: #cf3a4e;
+}
+.dva{
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+	background: white;
+}
+.dva h2{
+	text-align: center;
+}
+.arc{
+	width: 100%;
+	padding: 10px;
+}
+br{
+	clear: both;
+}
+article{
+	width: 30%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+article span{
+	color: #cf3a4e;
+}
+article img{
+	width: 100%;
+	border: 1px solid black;
+	border-bottom: none;
+}
+.tri{
+	margin: 20px auto;
+	width: 80%;
+	padding: 20px;
+	background: white;
+	/*display: flex;
+	align-items: stretch;*/
+}
+.kino{
+	width: 25%;
+	text-align: center;
+	background: #f0efed;
+	padding-bottom: 10px;
+}
+iframe{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.kino h2{
+	color: white;
+	background: red;
+	padding: 10px;
+	border-radius: 3px;
+}
+.kino p{
+	text-align: justify;
+	margin: 10px;
+}
+.flud{
+	width: 75%;
+	padding: 10px;
+	/*text-align: justify;
+	position: relative;*/
+}
+.jes{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+.jes img{
+	width: 25%;
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid black;
+}
+/*.icon img{
+	width: auto;
+	height: auto;
+	margin: 10px;
+	margin: 0 auto;
+}*/
+.iconjes{
+	float: left;
+}
+.iconjon{
+	float: right;
+}
+.textw{
+	width: 70%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #f0efed;
+}
+footer{
+	background: #cf3a4e;
+	padding: 10px 10px;
+	font-family: sans-serif;
+	color: white;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+.mon li{
+	list-style-type: none;
+	display: inline;
+	margin: 10px 10px 10px 0px;
+	color: white;
+	border-right: 2px solid white;
+	padding-right: 10px;
+	padding-left: 0px;
+}
+.inff{
+	width: 80%;
+	margin: auto;
+}
+
+footer button{
+	width: 50px;
+	height: 50px;
+	border: 10px solid red;
+	border-radius: 50%;
+}
+.reder{
+	background: #e24b5f;
+}
+.oliv{
+	background: #ad8455;
+}
+.bluer{
+	background: #42b4c4;
+}
+.ser{
+	background: #9a9898;
+}
+.fr span{
+	border-bottom: 2px dotted white;
+}
+.mob{
+	list-style-type: none;
+}
+@media screen and (min-width: 736px){
+	nav select{display: none;}
+	.mob{display: none;}
+	.fott{
+	width: 70%;
+	text-align: left;
+	}
+	.fr{
+	width: 28%;
+	text-align: right;
+	}
+	.inff{
+	display: flex;
+	justify-content: space-between;
+	}
+	.arc{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/*align-items: flex-start;*/
+	}
+	.tri{
+	display: flex;
+	align-items: stretch;
+	}
+}
+/*Мобильное устройство*/
+@media screen and (min-width: 0px) and (max-width: 736px){
+	nav ul{display: none;}
+	.mon{display: none;}
+	.fr{width: 100%;}
+	.foot{width: 100%;}
+	.cvet{text-align: center;}
+	.arc{margin: 10px auto;}
+	article{width: 100%;}
+	.kino{width: 100%;}
+	.flud{width: 100%;}
+}
